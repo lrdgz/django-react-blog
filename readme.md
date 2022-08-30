@@ -1,7 +1,12 @@
 ## INSTALL AND RUN APP
 
-- pip install -r requeriments.txt
+## NPM COMMANDS
 - npm install
 - npm run build
 
-##### python manage.py runserver 127.0.0.1:8000
+## PYTHON COMMANDS
+- pip install -r requeriments.txt
+- python manage.py makemigrations
+- python manage.py migrate
+- python manage.py createsuperuser
+- python manage.py runserver 127.0.0.1:8000
